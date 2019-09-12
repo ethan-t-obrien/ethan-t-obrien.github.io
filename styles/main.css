@@ -1,5 +1,5 @@
 body {
-    background-color: #D9D9D9;
+    background: url("../images/pattern.png");
     font-family: 'Asap', sans-serif;
 }
 
@@ -85,3 +85,39 @@ nav a:hover {
     text-align: center;
     color: #8C2029
 }
+
+
+/*sprint 28*/
+
+.positioning {
+    font-family: 'Pacifico', sans-serif;
+}
+
+.static {
+    background-color: rgb(115, 115, 115, 0.3);
+    width: 1171px;
+    
+}
+
+
+
+.relative {
+    background-color: rgb(115, 115, 115, 0.3);
+    width: 1171px;
+
+}
+
+.absolute {
+    background-color: rgb(115, 115, 115, 0.3);
+    width: 1171px;
+
+}
+
+.fixed {
+    background-color: rgb(115, 115, 115, 0.3);
+    width: 1171px;
+
+}
+
+
+
