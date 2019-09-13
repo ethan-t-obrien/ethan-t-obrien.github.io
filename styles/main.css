@@ -87,10 +87,10 @@ nav a:hover {
 }
 
 
-/*sprint 28*/
+/*sprint 2 tech*/
 
 .positioning {
-    font-family: 'Pacifico', sans-serif;
+    font-family: 'Staatliches', sans-serif;
 }
 
 .static {
@@ -119,5 +119,97 @@ nav a:hover {
 
 }
 
+/* Sprint1-cultural */
 
+.identity {
+    font-family: 'Staatliches', sans-serif;
+}
+
+.myValues {
+    background-color: rgb(115, 115, 115, 0.3);
+    width: 1171px;
+    
+}
+
+
+
+.decision1 {
+    background-color: rgb(115, 115, 115, 0.3);
+    width: 1171px;
+
+}
+
+.culture {
+    background-color: rgb(115, 115, 115, 0.3);
+    width: 1171px;
+
+}
+
+.strengths {
+    background-color: rgb(115, 115, 115, 0.3);
+    width: 1171px;
+
+}
+
+.strengths2 {
+    background-color: rgb(115, 115, 115, 0.3);
+    width: 1171px;
+
+}
+
+.strats {
+    background-color: rgb(115, 115, 115, 0.3);
+    width: 1171px;
+
+}
+
+/* sprint 2 cultural */
+
+.plan {
+    font-family: 'Staatliches', sans-serif;
+}
+
+.longTerm {
+    background-color: rgb(115, 115, 115, 0.3);
+    width: 1171px;
+    
+}
+
+.skills {
+    background-color: rgb(115, 115, 115, 0.3);
+    width: 1171px;
+    
+}
+
+
+
+.limitations {
+    background-color: rgb(115, 115, 115, 0.3);
+    width: 1171px;
+
+}
+
+.management {
+    background-color: rgb(115, 115, 115, 0.3);
+    width: 1171px;
+
+}
+
+.commitment {
+    background-color: rgb(115, 115, 115, 0.3);
+    width: 1171px;
+
+}
+
+.description {
+    background-color: rgb(115, 115, 115, 0.3);
+    width: 1171px;
+
+}
+
+.scheduling {
+    background-color: rgb(115, 115, 115, 0.3);
+    width: 1171px;
+
+}
 
