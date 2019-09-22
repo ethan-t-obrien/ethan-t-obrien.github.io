@@ -254,6 +254,12 @@ nav a:hover {
 
 }
 
+.arrays {
+    background-color: rgb(115, 115, 115, 0.3);
+    width: 1171px;
+
+}
+
 .DOM {
     background-color: rgb(115, 115, 115, 0.3);
     width: 1171px;
