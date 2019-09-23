@@ -36,42 +36,35 @@ function hide (evt) {
   updateCounts()
 }
 
+var totals = {}
 
-function updateCounts () {
-  var totals = {
-    blue: 0,
-    green: 0,
-    invisible: 0
-  }
+function updateCounts (){
+   
+    
+    totals.blue = document.getElementsByClassName('blue').length,
+    totals.green = document.getElementsByClassName('green').length,
+    totals.invisible = document.getElementsByClassName('invisible').length
+
   
   // WRITE CODE HERE TO COUNT BLUE, GREEN, AND INVISIBLE DOTS
  
 
   function displayTotals (totals) {
-      for (var blue in totals) {
-      document.getElementById("blue-total").innerHTML = totals[blue]
-      }
-  }
-
-  function displayTotals (totals) {
-    for (var green in totals) {
-      document.getElementById('green-total').innerHTML = totals[green]
+      
+        document.getElementById('blue-total').innerHTML = totals.blue
+        document.getElementById('green-total').innerHTML = totals.green
+        document.getElementById('invisible-total').innerHTML = totals.invisible
     }
-  }
 
-  function displayTotals (totals) {
-    for (var invisible in totals) {
-      document.getElementById('invisible-total').innerHTML = totals[invisible]
-    }
-  }
+ 
   // Once you've done the counting, this function will update the display
   displayTotals(totals)
-}
-
-function displayTotals (totals) {
-  for (var key in totals) {
-    document.getElementById(key + '-total').innerHTML = totals[key]
   }
-}
+
+// function displayTotals (totals) {
+//   for (var key in totals) {
+//     document.getElementById(key + '-total').innerHTML = totals[key]
+//   }
+// }
 
 
