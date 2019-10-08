@@ -1,0 +1,80 @@
+/* sort out fonts that you want your calc to have and import at top of file */
+
+
+/* sort colour scheme, aim for 6 colours*/
+
+/* make document and body 100% width and set background to a color */
+
+/* set calculator dimensions, color and margin */
+
+/* curve the calculator corners to your liking */
+
+/* make shadows to make calculator pop */
+
+/* style title on top of calculator */
+/* subtitle styling e.g [electronic calculator] */
+
+/* style inputbox set colour first and size then work from there */
+/* remember to different styling for CE and AC buttons */
+
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Roboto&display=swap');
+
+body {
+  width: 100%;
+  background-color: azure;
+}
+
+.calculator {
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  text-align: center;
+  width: 260px;
+  height: 360px;
+  background-color: lightslategray;
+  margin: 0 auto;
+  border-radius: 25px;
+  padding: 5px;
+  box-shadow: 2px 2px 4px rgb(68, 67, 67) inset,
+              -2px -2px 4px rgb(68, 67, 67) inset,
+              2px 2px 4px 1px  rgb(146, 143, 146),
+              -2px -2px 4px 1px rgb(146, 143, 146)
+  
+  
+}
+
+
+input {
+  width: 135px;
+  height: 45px;
+  direction: rtl;
+}
+
+.row {
+  
+  display: block;
+  font-size: 20px;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 7px;
+  margin-top: 7px;
+}
+button {
+  width: 30px;
+  height: 38px;
+  border-radius: 5px;
+}
+
+button.fancy {
+  background-color: crimson;
+}
+
+button.big {
+  width: 30px;
+  height: 83px;
+  float: right;
+  margin-left: -50px;
+  margin-right: 56px;
+
+  
+}
